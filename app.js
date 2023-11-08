@@ -7,6 +7,7 @@ const cors = require("cors");
 
 app.use(cors({
   origin: ['https://internet-magzin.vercel.app/',],
+  methods:["POST","GET"],
   credentials: true
 }));
 
