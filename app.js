@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://gleaming-eel-tam.cyclic.app',],
+  origin: ['https://internet-magzin.vercel.app/',],
   methods:["POST","GET"],
   credentials: true
 }));
