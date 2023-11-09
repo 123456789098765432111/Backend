@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['http://localhost:3000',],
+  origin: ['https://gleaming-eel-tam.cyclic.app',],
   methods:["POST","GET"],
   credentials: true
 }));
